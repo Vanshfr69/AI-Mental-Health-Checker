@@ -79,7 +79,7 @@ const Index = () => {
                   <span className="mx-2">•</span>
                   <span className="font-medium text-primary">Mokshika</span> - Project Selection And Leading
                   <span className="mx-2">•</span>
-                  <span className="font-medium text-primary">Chirag</span> - Documentation  
+                  <span className="font-medium text-primary">Chirag C* </span> - Documentation  
                   <span className="mx-2">•</span>
                   <span className="font-medium text-primary">Saumya</span> - Project Analysis and Framing
                   <span className="mx-2">•</span>
