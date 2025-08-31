@@ -72,11 +72,11 @@ const Index = () => {
                 A project created to help people understand their mental wellness through AI-powered insights.
               </p>
               <div className="mt-2">
-                <p className="text-sm font-medium text-foreground">Created by:</p>
+                <p className="text-sm font-medium text-foreground">Project by:</p>
                 <p className="text-sm text-muted-foreground">
-                  <span className="font-medium text-primary">Vansh</span> - Frontend Development & UI Design
+                  <span className="font-medium text-primary">Chiral Carbon </span> - Miaw Miaw
                   <span className="mx-2">•</span>
-                  <span className="font-medium text-primary">Chnitu</span> - AI Integration & Backend Logic
+                  <span className="font-medium text-primary">Saumya</span> - web app class bunk
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Index = () => {
           
           <div className="mt-6 pt-6 border-t border-border/50 text-center">
             <p className="text-xs text-muted-foreground">
-              © 2024 AI Mental Health Checker. This tool is for informational purposes only and is not a substitute for professional medical advice.
+              This tool is for informational purposes only and is not a substitute for professional medical advice.
             </p>
           </div>
         </div>
