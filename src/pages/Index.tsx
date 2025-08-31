@@ -2,13 +2,10 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Github, ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
 const Index = () => {
   const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20 px-6">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10" />
@@ -27,31 +24,25 @@ const Index = () => {
             </p>
 
             <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-              <Button 
-                onClick={() => navigate('/assessment')}
-                className="btn-hero group"
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
-              >
+              <Button onClick={() => navigate('/assessment')} className="btn-hero group" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                 Start Your Assessment
                 <ArrowRight className={`ml-2 h-5 w-5 transition-transform duration-300 ${isHovered ? 'translate-x-1' : ''}`} />
               </Button>
               
-              <Button 
-                variant="outline" 
-                className="btn-outline-premium"
-                onClick={() => window.open('https://github.com/', '_blank')}
-              >
-                <Github className="mr-2 h-4 w-4" />
-                View Source Code
-              </Button>
+              
             </div>
           </div>
 
           {/* Floating Elements */}
-          <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" style={{ animationDelay: '0s' }} />
-          <div className="absolute top-40 right-20 w-16 h-16 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: '1s' }} />
-          <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-secondary/20 rounded-full blur-xl animate-float" style={{ animationDelay: '2s' }} />
+          <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" style={{
+          animationDelay: '0s'
+        }} />
+          <div className="absolute top-40 right-20 w-16 h-16 bg-accent/20 rounded-full blur-xl animate-float" style={{
+          animationDelay: '1s'
+        }} />
+          <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-secondary/20 rounded-full blur-xl animate-float" style={{
+          animationDelay: '2s'
+        }} />
         </div>
       </section>
 
@@ -64,10 +55,7 @@ const Index = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Take the first step towards better mental health. Our assessment takes just 5-10 minutes.
           </p>
-          <Button 
-            onClick={() => navigate('/assessment')}
-            className="btn-hero"
-          >
+          <Button onClick={() => navigate('/assessment')} className="btn-hero">
             Start Assessment Now
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
@@ -94,12 +82,7 @@ const Index = () => {
             </div>
             
             <div className="flex items-center space-x-4">
-              <Button 
-                variant="ghost" 
-                size="sm"
-                onClick={() => window.open('https://github.com/', '_blank')}
-                className="text-muted-foreground hover:text-foreground"
-              >
+              <Button variant="ghost" size="sm" onClick={() => window.open('https://github.com/', '_blank')} className="text-muted-foreground hover:text-foreground">
                 <Github className="h-4 w-4 mr-2" />
                 Source Code
               </Button>
@@ -113,8 +96,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
