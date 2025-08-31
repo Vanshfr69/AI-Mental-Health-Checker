@@ -89,7 +89,7 @@ const Index = () => {
             </div>
             
             <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm" onClick={() => window.open('https://github.com/', '_blank')} className="text-muted-foreground hover:text-foreground">
+              <Button variant="ghost" size="sm" onClick={() => window.open('https://github.com/Vanshfr69/AI-Mental-Health-Checker', '_blank')} className="text-muted-foreground hover:text-foreground">
                 <Github className="h-4 w-4 mr-2" />
                 Source Code
               </Button>
