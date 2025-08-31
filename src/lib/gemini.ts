@@ -137,15 +137,9 @@ const mockAnalyzeResponse = (answers: Record<string, string>): AnalysisResult =>
 };
 
 export const analyzeResponse = async (answers: Record<string, string>): Promise<AnalysisResult> => {
-  // Check if user has provided Gemini API key
-  const apiKey = localStorage.getItem('gemini_api_key');
+  // Use the provided API key directly
+  const apiKey = 'AIzaSyCc0vt6LBQg6N5_GKhl-ypg73t9_zqQsCw';
   
-  if (!apiKey) {
-    // Show message about needing API key and use mock response
-    console.log('Using mock analysis. Add your Gemini API key for AI-powered insights.');
-    return mockAnalyzeResponse(answers);
-  }
-
   try {
     // Prepare the prompt for Gemini
     const prompt = `

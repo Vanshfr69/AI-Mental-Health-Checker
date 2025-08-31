@@ -138,7 +138,7 @@ const Assessment = () => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
           
-          <h1 className="text-3xl font-bold mb-2 text-foreground">Mental Fitness Assessment</h1>
+          <h1 className="text-3xl font-bold mb-2 text-foreground">AI Mental Health Assessment</h1>
           <p className="text-muted-foreground">
             Question {currentQuestion + 1} of {questions.length}
           </p>

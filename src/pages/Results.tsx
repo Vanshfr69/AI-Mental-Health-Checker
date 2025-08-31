@@ -114,7 +114,7 @@ const Results = () => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
           
-          <h1 className="text-4xl font-bold mb-2 text-foreground">Your Mental Fitness Report</h1>
+          <h1 className="text-4xl font-bold mb-2 text-foreground">Your Mental Health Report</h1>
           <p className="text-muted-foreground">
             Based on AI analysis of your responses
           </p>
