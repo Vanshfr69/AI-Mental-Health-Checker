@@ -162,10 +162,11 @@ export const analyzeResponse = async (answers: Record<string, string>): Promise<
     Focus on being supportive, constructive, and encouraging while providing actionable insights.
     `;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
+    const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'X-goog-api-key': apiKey,
       },
       body: JSON.stringify({
         contents: [{
