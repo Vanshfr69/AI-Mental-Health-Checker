@@ -120,6 +120,15 @@ const Results = () => {
           </p>
         </div>
 
+        {/* Doraemon Image */}
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/lovable-uploads/1431f520-23b2-4df4-9b29-8218699a9627.png" 
+            alt="Doraemon" 
+            className="w-32 h-32 object-contain animate-float"
+          />
+        </div>
+
         {/* Overall Score */}
         <Card className="p-8 shadow-medium gradient-card border-0 mb-8 text-center">
           <div className="flex flex-col items-center space-y-4">

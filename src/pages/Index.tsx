@@ -83,6 +83,14 @@ const Index = () => {
               <p className="text-sm text-muted-foreground">
                 A project created to help people understand their mental wellness through AI-powered insights.
               </p>
+              <div className="mt-2">
+                <p className="text-sm font-medium text-foreground">Created by:</p>
+                <p className="text-sm text-muted-foreground">
+                  <span className="font-medium text-primary">Vansh</span> - Frontend Development & UI Design
+                  <span className="mx-2">•</span>
+                  <span className="font-medium text-primary">Chnitu</span> - AI Integration & Backend Logic
+                </p>
+              </div>
             </div>
             
             <div className="flex items-center space-x-4">
@@ -94,15 +102,6 @@ const Index = () => {
               >
                 <Github className="h-4 w-4 mr-2" />
                 Source Code
-              </Button>
-              <Button 
-                variant="ghost" 
-                size="sm"
-                onClick={() => window.open('https://lovable.dev', '_blank')}
-                className="text-muted-foreground hover:text-foreground"
-              >
-                <ExternalLink className="h-4 w-4 mr-2" />
-                Built with Lovable
               </Button>
             </div>
           </div>
