@@ -74,9 +74,16 @@ const Index = () => {
               <div className="mt-2">
                 <p className="text-sm font-medium text-foreground">Project by:</p>
                 <p className="text-sm text-muted-foreground">
-                  <span className="font-medium text-primary">Chiral Carbon </span> - Miaw Miaw
                   <span className="mx-2">•</span>
-                  <span className="font-medium text-primary">Saumya</span> - web app class bunk
+                  <span className="font-medium text-primary">Anubhav</span> - Web Creation
+                  <span className="mx-2">•</span>
+                  <span className="font-medium text-primary">Mokshika</span> - Project Selection And Leading
+                  <span className="mx-2">•</span>
+                  <span className="font-medium text-primary">Chirag</span> - Documentation  
+                  <span className="mx-2">•</span>
+                  <span className="font-medium text-primary">Saumya</span> - Project Analysis and Framing
+                  <span className="mx-2">•</span>
+                  <span className="font-medium text-primary">Vansh</span> - Did Nothing
                 </p>
               </div>
             </div>
